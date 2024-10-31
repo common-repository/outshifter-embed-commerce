@@ -1,0 +1,156 @@
+
+/* Responsive */
+
+@media only screen and (max-width: 1440px) {
+    .outshifter-admin-container {
+      zoom: 80%;
+    }
+    #tabs-header {
+      margin-top: 15px;
+      margin-bottom: -1px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    #radio-group img {
+      width: 65px;
+    }
+    .shortcode-list-item {
+      grid-template-columns: 2fr 1fr 4fr 1fr;
+    }
+  }
+  
+  @media (max-width: 769px) {
+    .outshifter-admin-container {
+      min-height: 720px;
+    }
+    #tabs-header {
+      display: flex;
+      flex-direction: column;
+      height: 156px;
+    }
+    #tabs li {
+      margin-right: -2px;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    #tabs-header li.inactive {
+      border: 1px solid #ccc;
+      border-bottom: none;
+    }
+    #tabs-header li:first-child {
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px;
+    }
+    #tabs-header li:last-child {
+      border-bottom: 1px solid #ccc;
+    }
+    .container-tabs {
+      overflow-y: scroll;
+      border-top-right-radius: 0;
+      top: 298px;
+    }
+    .select-currency, .tab-select-logo, .select-container, .select-shortcode {
+      padding-top: 0;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+    .select-currency, .select-shortcode {
+      margin-bottom: 0;
+    }
+    #outshifter-g-analytics-disconnect, #outshifter-stripe-id-disconnect, #outshifter-mixpanel-disconnect,
+    #outshifter-stripe-key-disconnect {
+      margin-left: 0;
+      height: 40px;
+      margin-top: 10px;
+    }
+    .container-radio {
+      margin-top: 0;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    #radio-group {
+      grid-template-columns: 1fr;
+    }
+    #radio-cols {
+      flex-direction: column;
+      align-items: center;
+    }
+    #radio-group label {
+      margin-bottom: 15px;
+    }
+    .tab-select-logo {
+      flex-direction: column;
+    }
+    .upload-logo {
+      margin-bottom: 35px;
+    }
+    .upload-logo-button {
+      width: 180px;
+      font-size: 14px;
+    }
+    #radio-group img {
+      width: 120px;
+    }
+    #outshifter-select-currency, #outshifter-stripe-key, #outshifter-stripe-id, #outshifter-mixpanel, 
+    #outshifter-g-analytics, #outshifter-select-font, #select-border-ratio, #input-text-shop, #input-url-shop {
+      width: 300px;
+      padding-left: 12px !important;
+    }
+    #outshifter-select-currency {
+      margin-bottom: 30px;
+    }
+    #outshifter-g-analytics-disconnect {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .reset-container {
+      display: block;
+      margin-bottom: 0;
+    }
+    .outshifter-admin-footer {
+      padding-bottom: 10px;
+    }
+    .select-icon {
+      left: 265px;
+    }
+    .select-currency label, .select-shortcode label, .upload-logo label, .select-container label, #container-cols span {
+      font-size: 16px;
+    }
+    .label-stripe-key {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    #outshifter-select-currency, #outshifter-stripe-key, #outshifter-stripe-id, #outshifter-mixpanel, 
+    #outshifter-g-analytics, #outshifter-select-font, #select-border-ratio, #input-text-shop {
+      width: 205px;
+    }
+  
+    #outshifter-select-currency::placeholder, #outshifter-stripe-key::placeholder, #outshifter-stripe-id::placeholder, #outshifter-mixpanel::placeholder, 
+    #outshifter-g-analytics::placeholder, #select-border-ratio::placeholder, #input-text-shop::placeholder, #input-url-shop::placeholder {
+      font-size: 12px;
+    }
+    .select-icon {
+      left: 170px;
+    }
+  }
+  
+  @media (max-width: 443px) {
+    .disconnect-button {
+      padding-left: 0;
+      display: block;
+    }
+    .container-tabs {
+      top: 328px;
+    }
+  }
+  
+  @media (max-width: 460px) {
+    .container-tabs {
+      top: 328px;
+    }
+  }

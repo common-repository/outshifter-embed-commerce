@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('../assets/fonts/fonts.css');
+@import url('../carousel/dist/style.css');
+@import url('./connect.css');
+@import url('./tabs.css');
+@import url('./form-items.css');
+@import url('./tabs-logo.css');
+@import url('./tabs-layout.css');
+@import url('./tabs-shortcodes.css');
+@import url('./responsive.css');
+@import url('./tabs-styles.css');
+
+
+/* Global CSS variables */
+.align-left {
+  text-align: left;
+  margin-left: initial;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.alignLeft {
+  text-align: left;
+  margin-left: initial;
+}
+.alignCenter {
+  text-align: center;
+}
+.alignRight {
+  text-align: right;
+}
+.have-gutemberg {
+  display: none;
+}
+.notGutemberg {
+  display: block;
+}
+#wpbody-content {
+  padding-bottom: 0;
+}
+a {
+  cursor: pointer;
+}
+
+
+/* Global Admin Container */
+.reachu-admin-container {
+  padding-right: 30px;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#outshifter-admin-content {
+  display: none;
+  height: calc(100vh - 130px);
+  background: white;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.outshifter-admin-page {
+  font-family: 'Greycliff', sans-serif;
+  height: 100%;
+  margin-top: 20px;
+}
+.outshifter-admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reachu-admin-header-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+}
+.outshifter-admin-content-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+.reachu-admin-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.box-sidebar-container {
+  padding-top: 116px; 
+}
+
+@media only screen and (max-width: 1400px) {
+  .box-sidebar-container {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box-sidebar-container .box {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .outshifter-admin-content-container {
+    display: block;
+  }
+}
+
+
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  margin: -76px 0 0 -76px;
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #a7a9aa;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+@media (max-width: 960px) {
+  #loader {
+    left: 55%;
+  }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s;
+}
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+.is-saved-container {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  top: 10px;
+  right: 0px;
+  width: 350px;
+  transition: all 5s ease-in-out;
+}
+
+.animate-is-saved {
+  -webkit-animation-name: animateIsSaved;
+  -webkit-animation-duration: 0.5s;
+  animation-name: animateIsSaved;
+  animation-duration: 0.5s;
+}
+@-webkit-keyframes animateIsSaved {
+  from { top:-25px; opacity:0 } 
+  to { top:0px; opacity:1 }
+}
+@keyframes animateIsSaved { 
+  from{ top:-25px; opacity:0 } 
+  to{ top:0; opacity:1 }
+
+}
+
+#outshifter-select-font {
+  margin-bottom: 15px;
+}
+
+.image-shop-icon {
+  width: 17px;
+}
+
+#image-preview_shop {
+  max-height: 12px !important;
+  padding-right: 10px;
+}
+
+#text-shop {
+  display: none;
+}
+
+#image-preview_white {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outshifter-btn-blocks-form-token {
+  width: 130px;
+  height: 45px;
+}
+
+#outshifter-btn-save-settings {
+  width: 100px;
+  height: 36px;
+}
+
+#outshifter-btn-save-settings, .outshifter-btn-blocks-form-token {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+#outshifter-btn-save-settings:hover, .outshifter-btn-blocks-form-token:hover {
+  cursor: pointer;
+}
+
+.user-guide-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.notice, div.error, div.updated {
+  margin: 15px 0px 30px 0px;
+}
+
+/* *************************** */
+
+#mixpanel-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.reset-container {
+  display: flex;
+}
+
+#outshifter-g-analytics-disconnect, #outshifter-stripe-id-disconnect, #outshifter-mixpanel-disconnect,
+#outshifter-stripe-key-disconnect {
+  height: 45px;
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+#outshifter-stripe-key, #outshifter-stripe-id, #outshifter-mixpanel, #outshifter-g-analytics, 
+#input-text-shop, #input-url-shop {
+  margin-top: 0;
+}
+
+.wp-core-ui select:hover {
+  color: #000;
+}
+
+.wp-core-ui select:focus {
+  color: #000;
+}
+
+.wp-core-ui select:active {
+  color: #000;
+}
+
+.hola {
+  content: "\2BC0";
+
+}

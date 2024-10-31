@@ -1,0 +1,236 @@
+
+/* Custom shop button */
+
+.admin-section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+  
+.custom-checkout-buttons-container {
+    padding-top: 25px;
+}
+
+.custom-checkout-buttons {
+    margin-top: 25px;
+}
+
+.custom-checkout-buttons .wp-picker-holder {
+    position: absolute;
+    z-index: 5;
+}
+
+.checkout-buttons-section {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.preview-checkout-buttons {
+    display: block;
+    margin-bottom: 5px;
+    max-width: 500px;
+}
+
+.preview-buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 25px;
+}
+
+.preview-button-white, .preview-button-black {
+    height: 42px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.preview-button-white svg {
+    width: 17px;
+    height: 19px;
+    padding-bottom: 4px;
+}
+
+.preview-button-black {
+    background-color: #000;
+    color: #fff;
+    height: 44px;
+}
+
+.section-subitem {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d2327;
+    display: block;
+}
+
+.text-logo-selectors {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+}
+
+.shop-brand-logo-selected input, .shop-brand-text-selected input {
+    appearance: none;
+    opacity: 0;
+    display: none;
+}
+
+.shop-brand-logo-selected label, .shop-brand-text-selected label {
+    margin-bottom: 0;
+    font-size: 16px;
+    padding: 13px 20px;
+}
+
+.shop-brand-logo-selected, .shop-brand-text-selected {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #2d3b52;
+}
+
+.text-logo-group {
+    display: grid;
+    grid-template-columns: 135px 135px;
+    grid-column-gap: 30px;
+}
+
+.upload_image_button_shop, .reset-checkout-buttons, .reset-shop-button {
+    width: 130px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.reset-checkout-buttons {
+    width: auto;
+}
+
+.reset-preview-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 25px;
+}
+
+.btn-shop-preview-container {
+    display: grid;
+    grid-template-columns: max-content min-content;
+    column-gap: 40px;
+}
+
+#reset-shop-button {
+    width: 150px;
+}
+
+.upload-logo-btn-shop {
+    height: auto;
+}
+
+#input-text-shop, #input-url-shop {
+    width: 300px;
+    margin-top: 0;
+}
+
+.select-button-shop-color {
+    padding-left: 0;
+}
+
+.select-button-ratio {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#shop-button-ratio, #select-border-ratio {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    width: 130px;
+    margin-right: 5px;
+}
+
+.demo {
+    margin-bottom: 5px;
+}
+
+#input-url-shop {
+    margin-left: 40px;
+}
+
+#text-shop, #saved-text-shop, .shop-default-text {
+    color: #fff;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.shop-default-text {
+    padding-right: 0;
+}
+
+.image-shop-cart-icon {
+    width: 10px;
+    padding-left: 10px;
+}
+
+/* blocks title custom styles */
+.blocks-title-styles form {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content max-content;
+    column-gap: 30px;
+}
+
+.radio-controls {
+    display: flex;
+}
+
+.radio-controls input[type=radio] {
+    display: none;
+}
+
+.radio-controls svg {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.buttons-background-color, .buttons-text-color, 
+.buttons-text-hover-color, .custom-shop-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.buttons-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+  .buttons-background-color, .buttons-text-color, 
+  .buttons-text-hover-color, .custom-shop-icon, .text-logo-selectors, .add-url-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #input-url-shop {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,70 @@
+.upload-logo {
+  margin-right: 40px;
+  height: 130px;
+  display: grid;
+  grid-template-rows: 20px 1fr 40px;
+}
+  
+.upload-logo label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d2327;
+}
+
+.upload-logo-button {
+  background: transparent;
+  border: 1px solid #6603E5;
+  color: #6603E5;
+  padding: 8px 16px;
+  width: 185px;
+  height: 35px;
+  border-radius: 7px;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.upload-logo-button:hover {
+  cursor: pointer;
+  background: #6603E5;
+  border: 1px solid #6603E5;
+  color: white;
+}
+
+.image-preview-wrapper {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-radius: 8px;
+}
+
+.image-preview-wrapper-white {
+  max-width: 140px;
+  padding: 10px;
+  background: black;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-radius: 8px;
+}
+
+.image-preview-wrapper-shop {
+  width: fit-content;
+  min-width: 50px;
+  max-width: 150px;
+  height: 25px;
+  padding: 0 10px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}

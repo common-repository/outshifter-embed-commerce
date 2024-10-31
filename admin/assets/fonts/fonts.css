@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Greycliff';
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 100;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 200;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Extra-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 300;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Extra-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 400;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 500;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 600;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-DemiBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 700;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 800;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Greycliff';
+    font-weight: 900;
+    src: local('Greycliff'), url('./greycliff/GreycliffCF-Heavy.otf') format('opentype');
+}
